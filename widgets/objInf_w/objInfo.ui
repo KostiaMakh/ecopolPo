@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>563</width>
+    <height>486</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="gr_comp">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>521</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Бланк ТКП</string>
+    </property>
+    <widget class="QWidget" name="horizontalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>501</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="leftMargin">
+       <number>15</number>
+      </property>
+      <item>
+       <widget class="QRadioButton" name="comp_mp">
+        <property name="text">
+         <string>АО МайПроект</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="comp_tpp">
+        <property name="text">
+         <string>ТПП Экополимер</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="comp_npf">
+        <property name="text">
+         <string>НПФ Экополимер</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="formLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>521</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout_2">
+     <property name="verticalSpacing">
+      <number>12</number>
+     </property>
+     <item row="6" column="1">
+      <widget class="QComboBox" name="cmb_location">
+       <property name="editable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>Сооружение</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Объект</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QComboBox" name="cmb_country"/>
+     </item>
+     <item row="5" column="1">
+      <widget class="QComboBox" name="cmb_object">
+       <property name="editable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QComboBox" name="cmb_customer">
+       <property name="editable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QComboBox" name="cmb_city">
+       <property name="editable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Гороод</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Страна</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QComboBox" name="cmb_manager"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Заказчик</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Менеджер</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>Примечение</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QPlainTextEdit" name="txt_note"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>400</y>
+      <width>521</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QPushButton" name="btn_next">
+       <property name="text">
+        <string>Далее</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>563</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Правка</string>
+    </property>
+    <addaction name="window_param"/>
+    <addaction name="mn_price_params"/>
+   </widget>
+   <widget class="QMenu" name="menu_bth_renew">
+    <property name="title">
+     <string>Файл</string>
+    </property>
+    <addaction name="update_data_in_sql"/>
+   </widget>
+   <addaction name="menu_bth_renew"/>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="window_param">
+   <property name="text">
+    <string>Параметры окна</string>
+   </property>
+  </action>
+  <action name="mn_price_params">
+   <property name="text">
+    <string>Редактор цен</string>
+   </property>
+  </action>
+  <action name="update_data_in_sql">
+   <property name="text">
+    <string>Обновить позицию в базе</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

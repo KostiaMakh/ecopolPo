@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>781</width>
+    <height>495</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btn_gap">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>150</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Прозор</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_chanel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>45</y>
+      <width>150</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Каналы</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>410</y>
+      <width>761</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="btn_save">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Сохранить</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_cancel">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Отмена</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="btn_driver">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>115</y>
+      <width>150</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> IP привода</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_cp">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>150</y>
+      <width>150</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ШУ</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_protokol">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>185</y>
+      <width>150</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Протокол связи</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_mat">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>220</y>
+      <width>150</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Материал исполнения</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_cell_links">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>255</y>
+      <width>150</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ссылки на ячейки</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_hl">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>150</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Высота выгрузки</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_book_links">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>290</y>
+      <width>150</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ссылки на файлы</string>
+    </property>
+   </widget>
+   <widget class="QStackedWidget" name="stack_widget">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>10</y>
+      <width>591</width>
+      <height>381</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>781</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

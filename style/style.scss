@@ -1,0 +1,25 @@
+*{
+  font-family: Arial;
+  font-style: normal;
+  font-size: 12px;
+}
+.QLabel{
+  font-size: 12px;
+  margin-right: 25px;
+}
+.QComboBox{
+  font-style: italic;
+}
+
+.QPushButton{
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.QMessageBox{
+  .QPushButton{
+    padding: 6px 30px;
+  }
+}
